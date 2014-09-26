@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://sourceforge.net/projects/libtorrent'
   s.authors  = { 'Arvid Norberg' => 'arvidn@rasterbar.com' }
   s.source   = { :git => 'https://github.com/steakknife/libtorrent-ios.git' }
-  s.source_files = '{src,include}'
+  s.source_files = '{src,include}/**'
   s.requires_arc = true
 
   s.ios.deployment_target = '5.0'
