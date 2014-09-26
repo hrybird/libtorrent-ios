@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.7'
 
   s.dependency 'boost'
+  s.dependency 'OpenSSL'
 end
